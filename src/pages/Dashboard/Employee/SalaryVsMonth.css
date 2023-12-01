@@ -1,0 +1,24 @@
+/* SalaryVsMonth.css */
+
+/* Default styles for large screens */
+.BarChartContainer {
+    width: 1000px;
+    height: 300px;
+  }
+  
+  /* Adjust styles for medium screens */
+  @media (max-width: 768px) {
+    .BarChartContainer {
+      width: 80vw; /* 80% of the viewport width */
+      height: 250px;
+    }
+  }
+  
+  /* Adjust styles for small screens */
+  @media (max-width: 480px) {
+    .BarChartContainer {
+      width: 90vw; /* 90% of the viewport width */
+      height: 200px;
+    }
+  }
+  
